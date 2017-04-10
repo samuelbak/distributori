@@ -10,6 +10,7 @@ import util.DbManager;
 public class Distributori {
 
 	public static void main(String[] args) {
+		/*
 		try {
 			System.out.println("Clearing database...");
 			CsvManagement.clearDb();
@@ -40,6 +41,8 @@ public class Distributori {
 			e.printStackTrace();
 		}
 		System.out.println("Done!");
+		*/
+		JsonServer json = new JsonServer();
 	}
 
 }
