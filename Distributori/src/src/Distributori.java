@@ -1,16 +1,13 @@
 package src;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
-
 import util.CsvManagement;
-import util.DbManager;
 
 public class Distributori {
 
 	public static void main(String[] args) {
-		/*
+
 		try {
 			System.out.println("Clearing database...");
 			CsvManagement.clearDb();
@@ -41,8 +38,6 @@ public class Distributori {
 			e.printStackTrace();
 		}
 		System.out.println("Done!");
-		*/
-		JsonServer json = new JsonServer();
 	}
 
 }
